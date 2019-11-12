@@ -1,0 +1,205 @@
+.empress
+{
+
+}
+
+.bar
+{
+    display: flex;
+    width: 1200px;
+    height: 54px;
+    background: white;
+    box-shadow: 0px 1.2px 3.6px rgba(0, 0, 0, 0.05), 0px 6.4px 14.4px rgba(0, 0, 0, 0.052);
+}
+
+.header
+{
+    margin-top: 12.5px;
+    font-size: 17px;
+    line-height: 22px;
+    color: #333333;
+    margin-left: 60px;
+
+}
+
+.offscreen
+{
+    display: none;
+}
+
+.icons
+{
+    display: flex;
+}
+
+.icons > span
+{
+    margin-left: 900px;
+    margin-top: 10.5px;
+}
+
+.icons > .png
+{
+    margin-left: 30px;
+    width: 24.57px;
+    height: 24.57px;
+    background-blend-mode: normal;
+    border-radius: 2px;
+    border: 1.5px solid black;
+    margin-top: 10.5px;
+}
+
+
+.body-two
+{
+    display: flex;
+}
+
+@media(max-width:900px)
+{
+    .offscreen
+    {
+        display: flex;
+        margin-top: 13px;
+    }
+    .bar
+    {
+        width: 100vw;
+        height: 54px; 
+        background: white;
+        background-size: contain;
+        box-shadow: 0px 1.2px 3.6px rgba(0, 0, 0, 0.05), 0px 6.4px 14.4px rgba(0, 0, 0, 0.052);
+    }
+    
+    .header
+    {
+        margin-top: 12.5px;
+        font-size: 17px;
+        line-height: 22px;
+        color: #333333;
+        margin-left: 2%;
+    }
+    
+    .icons
+    {
+        /* margin-right: 0px ; */
+        position: relative;
+        /* border: 1px solid black; */
+        width: 60%;
+    }
+    
+    .fa-bell
+    {     
+        float: right;
+        width: 24.57px;
+        height: 24.57px;
+        background-blend-mode: normal;
+        border-radius: 2px;
+        margin-top: 5.5px;
+        left: 97%;
+        position: absolute;
+    }
+
+    
+    
+    .png
+    {
+        float: right;
+        width: 24.57px;
+        height: 24.57px;
+        background-blend-mode: normal;
+        border-radius: 2px;
+        border: 1.5px solid black;
+        margin-top: 10.5px;
+        left: 100%;
+        position: absolute;
+    }
+
+    .body-two
+    {
+        display: block;
+    }
+
+}
+
+@media(max-width:500px)
+{
+    .offscreen
+    {
+        display: flex;
+        margin-top: 13px;
+    }
+
+    .bar
+    {
+        width: 100vw;
+        height: 54px; 
+        background: white;
+        background-size: contain;
+        box-shadow: 0px 1.2px 3.6px rgba(0, 0, 0, 0.05), 0px 6.4px 14.4px rgba(0, 0, 0, 0.052);
+    }
+    
+    .header
+    {
+        margin-top: 12.5px;
+        font-size: 17px;
+        line-height: 22px;
+        color: #333333;
+        margin-left: 2%;
+    }
+        
+    .icons
+    {
+        /* margin-right: 0px ; */
+        position: relative;
+        /* border: 1px solid black; */
+        width: 60%;
+    }
+    
+    .fa-bell
+    {     
+        float: right;
+        width: 24.57px;
+        height: 24.57px;
+        background-blend-mode: normal;
+        border-radius: 2px;
+        margin-top: 5.5px;
+        left: 75%;
+        position: absolute;
+    }
+
+    .png
+    {
+        float: right;
+        width: 24.57px;
+        height: 24.57px;
+        background-blend-mode: normal;
+        border-radius: 2px;
+        border: 1.5px solid black;
+        margin-top: 10.5px;
+        left: 80%;
+        position: absolute;
+    }
+
+    .body-two
+    {
+        display: block;
+    }
+}
+
+@media(max-width: 390px)
+{
+    .bar
+    {
+        width: 100vw;
+        height: 54px; 
+        background: white;
+        background-size: contain;
+        box-shadow: 0px 1.2px 3.6px rgba(0, 0, 0, 0.05), 0px 6.4px 14.4px rgba(0, 0, 0, 0.052);
+    }
+    
+    .body-two
+    {
+        display: block;
+    }
+}

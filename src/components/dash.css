@@ -1,0 +1,98 @@
+.zomoy
+{
+    background: #2F80ED;
+    width: 300px;
+    height: 100vh;
+}
+
+.tr-one
+{
+    color: white;
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: bold;
+    margin-left: 65px;
+    margin-top: 45px;
+}
+
+.tr-two
+{
+    font-size: 20px;
+    line-height: 34px;
+    color: white;
+    margin-top: 45px;
+    margin-left: 65px;
+}
+
+.tr-two > span
+{
+    font-weight: bold;
+}
+
+.tr-three
+{
+    color: white;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 50px;
+    margin-left: 65px; 
+}
+
+.tr-three > .log:hover
+{
+    color: burlywood;
+    cursor: pointer;
+}
+
+.tr-three > .wano:hover
+{
+    color: burlywood;
+    cursor: pointer;
+}
+
+.tr-three > .zou:hover
+{
+    color: burlywood;
+    cursor: pointer;
+}
+
+.tr-three > .rando:hover
+{
+    color: burlywood;
+    cursor: pointer;
+}
+
+.tr-three > .merry:hover
+{
+    color: burlywood;
+    cursor: pointer;
+}
+
+.rw-btn
+{
+    background:#E1DFDD;
+    border-radius: 2px;
+    color: #2F80ED;
+    height: 40px;
+    width: 200px;
+    border: 2px solid #2F80ED;
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 40px;
+    margin-left: 65px;
+}
+
+.rw-btn:hover
+{
+    color: #333333;
+    background: burlywood;
+    cursor: pointer;
+}
+
+@media(max-width: 900px)
+{
+    .zomoy
+    {
+        display: none;
+    }
+}

@@ -1,0 +1,29 @@
+.hamburger
+{
+    display: flex;
+    flex-direction: column;
+    height: 18px;
+    width: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: space-around;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+.hamburger:focus
+{
+    outline: none;
+}
+
+.burger-line
+{
+    width: 30px;
+    height: 2px;
+    background: black;
+}
+

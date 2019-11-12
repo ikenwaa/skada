@@ -1,0 +1,707 @@
+.gtx
+{
+    width: 700px;
+    background: white;
+    color: #333333;
+}
+
+.top-txt
+{
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 45px;
+}
+
+.top-sgn
+{
+    margin-top: 5px;
+}
+
+.arrow
+{
+    margin-left: 50px;
+}
+
+.ln-ph
+{
+    border: none;
+    border-bottom: 1px solid #333333;
+    margin-left: 20px;
+    line-height: 50px;    
+    width: 320px;
+    outline: none;
+}
+
+::-webkit-input-placeholder
+{
+   color: #9F9D9D;
+}
+
+.quad
+{
+    margin-top: 30px;
+    margin-left: 85px;        
+}
+
+.quad > .sm-txt
+{
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 2px;
+    height: 41px;
+    width: 121px;
+    color: #9F9D9D;
+}
+
+.quad > .bg-txt
+{
+    margin-left: 40px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 2px;
+    width: 160px;
+    height: 41px;
+    color: #9F9D9D;
+}
+
+.tert
+{
+    margin-left: 85px;     
+    margin-top: 20px;
+}
+
+.tert > .tny-txt
+{
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 2px;
+    height: 41px;
+    width: 121px;
+    color: #9F9D9D;
+}
+
+.tert > .lrg-txt
+{
+    margin-left: 40px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 2px;
+    width: 160px;
+    height: 41px;
+    color: #9F9D9D;
+}
+
+.brf
+{
+    margin-left: 85px;     
+    margin-top: 20px;
+}
+
+.borx
+{
+    margin-left: 85px;
+    margin-top: 30px;
+}
+
+.borx > .mantra
+{   
+    border: 1px solid #C4C4C4;
+    height: 86px;
+    width: 120px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background: white;
+}
+
+.borx > .enel
+{
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 2px;
+    height: 41px;
+    width: 120px;
+    margin-left: 80px;
+    color: #9F9D9D;
+}
+
+.law-one
+{
+    margin-left: 85px;
+    margin-top: 30px;
+    width: 320px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 2px;
+    height: 41px;
+    color: #9F9D9D;
+}
+
+.law-two
+{
+    margin-left: 85px;
+    margin-top: 20px;
+    height: 65px;
+    width: 320px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #9F9D9D;
+}
+
+.on-nxt
+{
+    margin-top: 40px;
+    background: #2F80ED;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+    width: 173px;
+    height: 41px;
+    border: 1px solid white;
+    margin-left: 231px;
+}
+
+.on-nxt:hover
+{
+    color: burlywood;
+    background: #333333;
+    cursor: pointer;
+}
+
+/*Responsive Media Query */
+
+@media(max-width: 500px)
+{
+    .gtx
+    {
+        height: 650px;
+    }
+
+        
+    .top-txt
+    {
+        font-size: 15px;
+        line-height: 17px;
+        margin-top: 20px;
+        margin-left: 45px;
+    }
+
+    .top-sgn
+    {
+        margin-top: 2px;
+        margin-left: -10%;
+        width: 80%;
+    }
+
+    .cord > span
+    {
+        margin-top: 20%;
+    }
+
+    .arrow
+    {
+        margin-left: 10%;
+    }
+
+    .ln-ph
+    {
+        border: none;
+        border-bottom: 1px solid #333333;
+        /* margin-left: 40%; */
+        line-height: 40px;    
+        /* width: 30%; */
+        outline: none;
+    }  
+    
+    ::-webkit-input-placeholder
+    {
+       color: #9F9D9D;
+    }
+
+    .quad
+    {
+        margin-top: 5%;
+        /* margin-left: 12%;         */
+        width: 57%;
+    }
+    .quad > .sm-txt
+    {
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        border-radius: 2px;
+        height: 30px;
+        width: 27px;
+        color: #9F9D9D;
+        margin-left: -22%;
+    }
+    
+    .quad > .bg-txt
+    {
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        border-radius: 2px;
+        height: 30px;
+        width: 35%;
+        color: #9F9D9D;
+    }
+    
+    .tert
+    {
+        margin-top: 5%;
+        width: 57%;
+        /* margin-left: -16%; */
+    }
+    
+    .tert > .tny-txt
+    {
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        border-radius: 2px;
+        height: 30px;
+        /* width: 35%; */
+        margin-left: -22%;
+        color: #9F9D9D;
+    }
+    
+    .tert > .lrg-txt
+    {
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        border-radius: 2px;
+        height: 30px;
+        width: 35%;
+        color: #9F9D9D;
+    }
+    
+    div > .brf
+    {
+        margin-left: 9.5%; 
+    }
+    
+    div > .borx
+    {
+        margin-left: 9.5%;
+        margin-top: 30px;
+    }
+    
+    div > .borx > .mantra
+    {   
+        border: 1px solid #C4C4C4;
+        height: 70px;
+        width: 120px;
+        box-sizing: border-box;
+        border-radius: 2px;
+        background: white;
+    }
+    
+    div > .borx > .enel
+    {
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        border-radius: 2px;
+        height: 30px;
+        width: 22%;
+        margin-left: 10%;
+        color: #9F9D9D;
+    }
+    
+    div > .law-one
+    {
+        margin-left: 9.5%;
+        margin-top: 30px;
+        width: 46%;
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        border-radius: 2px;
+        height: 30px;
+        color: #9F9D9D;
+    }
+    
+    div > .law-two
+    {
+        margin-left: 9.5%;
+        margin-top: 20px;
+        height: 100px;
+        width: 46%;
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        border-radius: 2px;
+        color: #9F9D9D;
+    }
+    
+    section > .on-nxt
+    {
+        margin-top: 40px;
+        background: #2F80ED;
+        border-radius: 2px;
+        color: white;
+        font-weight: bold;
+        width: 16%;
+        /* height: px; */
+        border: 1px solid white;
+        margin-right: 20%;
+    }
+    
+    .on-nxt:hover
+    {
+        color: burlywood;
+        background: #333333;
+        cursor: pointer;
+    }
+}
+
+@media(max-width: 900px)
+{
+    .gtx
+    {
+        height: 650px;
+    }
+
+        
+    .top-txt
+    {
+        font-size: 15px;
+        line-height: 17px;
+        margin-top: 20px;
+        margin-left: 45px;
+    }
+
+    .top-sgn
+    {
+        margin-top: 2px;
+    }
+
+    .cord > span
+    {
+        margin-top: 25%;
+    }
+
+    .arrow
+    {
+        margin-left: 15%;
+    }
+
+    .ln-ph
+    {
+        border: none;
+        border-bottom: 1px solid #333333;
+        margin-left: 5%;
+        line-height: 40px;    
+        width: 60%;
+        outline: none;
+    }  
+    
+    ::-webkit-input-placeholder
+    {
+       color: #9F9D9D;
+    }
+
+    .quad
+    {
+        margin-top: 5%;
+        margin-left: 22%;        
+    }
+    .quad > .sm-txt
+    {
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        border-radius: 2px;
+        height: 30px;
+        width: 35%;
+        color: #9F9D9D;
+    }
+    
+    .quad > .bg-txt
+    {
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        border-radius: 2px;
+        height: 30px;
+        width: 35%;
+        color: #9F9D9D;
+    }
+    
+    .tert
+    {
+        margin-top: 5%;
+        margin-left: 22%; 
+    }
+    
+    .tert > .tny-txt
+    {
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        border-radius: 2px;
+        height: 30px;
+        width: 35%;
+        color: #9F9D9D;
+    }
+    
+    .tert > .lrg-txt
+    {
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        border-radius: 2px;
+        height: 30px;
+        width: 35%;
+        color: #9F9D9D;
+    }
+    
+    .brf
+    {
+        margin-left: 22%;     
+        margin-top: 4%;
+    }
+    
+    .borx
+    {
+        margin-left: 22%;
+        margin-top: 30px;
+    }
+    
+    .borx > .mantra
+    {   
+        border: 1px solid #C4C4C4;
+        height: 70px;
+        width: 120px;
+        box-sizing: border-box;
+        border-radius: 2px;
+        background: white;
+    }
+    
+    .borx > .enel
+    {
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        border-radius: 2px;
+        height: 30px;
+        width: 35%;
+        margin-left: 20%;
+        color: #9F9D9D;
+    }
+    
+    .law-one
+    {
+        margin-left: 22%;
+        margin-top: 30px;
+        width: 60%;
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        border-radius: 2px;
+        height: 30px;
+        color: #9F9D9D;
+    }
+    
+    .law-two
+    {
+        margin-left: 22%;
+        margin-top: 20px;
+        height: 100px;
+        width: 60%;
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        border-radius: 2px;
+        color: #9F9D9D;
+    }
+    
+    .on-nxt
+    {
+        margin-top: 40px;
+        background: #2F80ED;
+        border-radius: 2px;
+        color: white;
+        font-weight: bold;
+        width: 173px;
+        height: px;
+        border: 1px solid white;
+        margin-left: 40%;
+    }
+    
+    .on-nxt:hover
+    {
+        color: burlywood;
+        background: #333333;
+        cursor: pointer;
+    }
+}
+
+@media(max-width:390px)
+{
+    .gtx
+    {
+        height: 650px;
+        width: 390vw;
+    }
+
+        
+    .top-txt
+    {
+        font-size: 15px;
+        line-height: 17px;
+        margin-top: 20px;
+        margin-left: 45px;
+    }
+
+    .top-sgn
+    {
+        margin-top: 2px;
+        margin-left: 10%;
+        width: 20%;
+    }
+
+    .cord > span
+    {
+        margin-top: 20%;
+    }
+
+    .arrow
+    {
+        margin-left: 10%;
+    }
+
+    .ln-ph
+    {
+        border: none;
+        border-bottom: 1px solid #333333;
+        /* margin-left: 40%; */
+        line-height: 40px;    
+        width: 30%; 
+        outline: none;
+    }  
+    
+    ::-webkit-input-placeholder
+    {
+       color: #9F9D9D;
+    }
+
+    .quad
+    {
+        margin-top: 5%;
+        /* margin-left: 12%;         */
+        width: 57%;
+    }
+    .quad > .sm-txt
+    {
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        border-radius: 2px;
+        height: 30px;
+        width: 27px;
+        color: #9F9D9D;
+        margin-left: -22%;
+    }
+    
+    .quad > .bg-txt
+    {
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        border-radius: 2px;
+        height: 30px;
+        width: 35%;
+        color: #9F9D9D;
+    }
+    
+    .tert
+    {
+        margin-top: 5%;
+        width: 57%;
+        /* margin-left: -16%; */
+    }
+    
+    .tert > .tny-txt
+    {
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        border-radius: 2px;
+        height: 30px;
+        /* width: 35%; */
+        margin-left: -22%;
+        color: #9F9D9D;
+    }
+    
+    .tert > .lrg-txt
+    {
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        border-radius: 2px;
+        height: 30px;
+        width: 35%;
+        color: #9F9D9D;
+    }
+    
+    div > .brf
+    {
+        margin-left: 9.5%; 
+    }
+    
+    div > .borx
+    {
+        margin-left: 9.5%;
+        margin-top: 30px;
+    }
+    
+    div > .borx > .mantra
+    {   
+        border: 1px solid #C4C4C4;
+        height: 70px;
+        width: 120px;
+        box-sizing: border-box;
+        border-radius: 2px;
+        background: white;
+    }
+    
+    div > .borx > .enel
+    {
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        border-radius: 2px;
+        height: 30px;
+        width: 22%;
+        margin-left: 10%;
+        color: #9F9D9D;
+    }
+    
+    div > .law-one
+    {
+        margin-left: 9.5%;
+        margin-top: 30px;
+        width: 46%;
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        border-radius: 2px;
+        height: 30px;
+        color: #9F9D9D;
+    }
+    
+    div > .law-two
+    {
+        margin-left: 9.5%;
+        margin-top: 20px;
+        height: 100px;
+        width: 46%;
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        border-radius: 2px;
+        color: #9F9D9D;
+    }
+    
+    section > .on-nxt
+    {
+        margin-top: 40px;
+        background: #2F80ED;
+        border-radius: 2px;
+        color: white;
+        font-weight: bold;
+        width: 16%;
+        /* height: px; */
+        border: 1px solid white;
+        margin-left: -20%;
+    }
+    
+    .on-nxt:hover
+    {
+        color: burlywood;
+        background: #333333;
+        cursor: pointer;
+    }
+}
